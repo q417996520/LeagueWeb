@@ -27,7 +27,7 @@ export default {
     defaultTheme: {
       handler: function(val, oldVal) {
         this.theme = val
-        console.log(oldVal);
+        console.log(oldVal)
       },
       immediate: true
     },
